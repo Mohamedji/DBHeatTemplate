@@ -1,0 +1,9 @@
+echo  > /etc/apt/sources.list
+echo "###### Ubuntu Main Repos" >> /etc/apt/sources.list
+echo "deb http://in.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse"  >> /etc/apt/sources.list
+echo "deb-src http://in.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse" >> /etc/apt/sources.list
+echo "###### Ubuntu Update Repos" >> /etc/apt/sources.list
+echo "deb http://in.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb http://in.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb-src http://in.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse" >> /etc/apt/sources.list
+echo "deb-src http://in.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse"  >> /etc/apt/sources.list
